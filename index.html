@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ICI APPS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="navbar">
+        <h1>ICI APPS</h1>
+      </section>
+
+      <section class="items">
+        <div class="item">
+          <img src="assets/led-on.png" alt="led" class="item-image" />
+          <button class="button" onclick="window.location.href='led.html'">
+            Lampu LED
+          </button>
+        </div>
+        <div class="item">
+          <img
+            src="assets/water-pump.png"
+            alt="water-pump"
+            class="item-image"
+          />
+          <button
+            class="button"
+            onclick="window.location.href='water.html'"
+          >
+            Sanyo
+          </button>
+        </div>
+        <div class="item">
+          <img src="assets/wip.png" alt="segera hadir" class="item-image" />
+          <button class="button" onclick="alert('Segera Hadir')">
+            Segera Hadir
+          </button>
+        </div>
+      </section>
+
+      <section class="bottom-bar">
+        <ul class="bottom-bar-items">
+          <li class="active">
+            <a href="index.html"><i class="fa-solid fa-house fa-lg"></i></a>
+          </li>
+          <li>
+            <a href="led.html"><i class="fa-solid fa-lightbulb fa-lg"></i></a>
+          </li>
+          <li>
+            <a href="water.html"><i class="fa-solid fa-droplet fa-lg"></i></a>
+          </li>
+          <li>
+            <a href="profile.html"><i class="fa-solid fa-user fa-lg"></i></a>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <script src="main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/87dd173a0d.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

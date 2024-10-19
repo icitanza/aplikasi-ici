@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ICI APPS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <section class="navbar">
+        <h1>ICI APPS</h1>
+      </section>
+      <section class="page-title">
+        <h1>Lampu LED Control</h1>
+      </section>
+      <section class="leds">
+        <div class="led">
+          <img src="assets/led-off.png" alt="led" class="led-image" id="dapurLedImage"/>
+          <p class="led-text">Dapur</p>
+          <button class="button-led" id="dapurLed" onclick="setDapur()">
+            Turn On
+          </button>
+        </div>
+        <div class="led">
+          <img src="assets/led-off.png" alt="led" class="led-image" id="kamarBawahLedImage"/>
+          <p class="led-text">Kamar Bawah</p>
+          <button class="button-led" id="kamarBawahLed" onclick="setKamarBawah()">
+            Turn On
+          </button>
+        </div>
+        <div class="led">
+          <img src="assets/led-off.png" alt="led" class="led-image" id="kamarAtasLedImage"/>
+          <p class="led-text">Kamar Atas</p>
+          <button class="button-led" id="kamarAtasLed" onclick="setKamarAtas()">
+            Turn On
+          </button>
+        </div>
+        <div class="led">
+          <img src="assets/led-off.png" alt="led" class="led-image" id="ruangTamuLedImage"/>
+          <p class="led-text">Ruang Tamu</p>
+          <button class="button-led" id="ruangTamuLed" onclick="setRuangTamu()">
+            Turn On
+          </button>
+        </div>
+      </section>
+
+      <section class="bottom-bar">
+        <ul class="bottom-bar-items">
+          <li>
+            <a href="index.html"><i class="fa-solid fa-house fa-lg"></i></a>
+          </li>
+          <li class="active">
+            <a href="led.html"><i class="fa-solid fa-lightbulb fa-lg"></i></a>
+          </li>
+          <li>
+            <a href="water.html"><i class="fa-solid fa-droplet fa-lg"></i></a>
+          </li>
+          <li>
+            <a href="profile.html"><i class="fa-solid fa-user fa-lg"></i></a>
+          </li>
+        </ul>
+      </section>
+    </div>
+    <script src="main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/87dd173a0d.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
